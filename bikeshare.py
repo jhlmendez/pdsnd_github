@@ -92,7 +92,7 @@ def get_weekday():
                       '\n Type 6 for Friday'
                       '\n Type 7 for Saturday'
                       '\n Type 0 for All\n')
-        if day == day == '1':
+        if day == '1':
             return sun
         elif day == '2':
             return mon
