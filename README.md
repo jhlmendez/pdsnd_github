@@ -1,5 +1,5 @@
 ### Date created
-5/16/19
+Bikeshare Project Created: 5/9/19 README Created: 5/16/19
 
 ### Project Title
 Bikeshare Data
