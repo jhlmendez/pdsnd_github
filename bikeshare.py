@@ -15,7 +15,7 @@ read csv
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
 def get_city():
-    print("Hello! Let's explore U.S. bikeshare data!\n")
+    print("Howdy pardner! I'm gonna learn you some U.S. bikeshare data!\n")
     cities = ['chicago', 'new_york_city', 'washington']
     chi_file = 'chicago.csv'
     ny_file = 'new_york_city.csv'
