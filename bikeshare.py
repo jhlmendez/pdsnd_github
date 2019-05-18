@@ -54,19 +54,19 @@ def get_month():
                       '\n Type 5 for May'
                       '\n Type 6 for June'
                       '\n Type 0 for All\n')
-        if month == 'January' or month == 'Jan' or month == '1':
+        if month == month == '1':
             return jan
-        elif month == 'February' or month == 'Feb' or month == '2':
+        elif month == month == '2':
             return feb
-        elif month == 'March' or month == 'Mar' or month == '3':
+        elif month == month == '3':
             return mar
-        elif month == 'April' or month == 'Apr' or month == '4':
+        elif month == month == '4':
             return apr
-        elif month == 'May' or month == '5':
+        elif month == month == '5':
             return May
-        elif month == 'June' or month == 'Jun' or month == '6':
+        elif month == month == '6':
             return jun
-        elif month == 'All' or month == '0':
+        elif month == month == '0':
             return all
         else:
             print('\nInvalid Selection. Please Try Again.\n')
