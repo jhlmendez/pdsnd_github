@@ -54,19 +54,19 @@ def get_month():
                       '\n Type 5 for May'
                       '\n Type 6 for June'
                       '\n Type 0 for All\n')
-        if month == month == '1':
+        if month == '1':
             return jan
-        elif month == month == '2':
+        elif month == '2':
             return feb
-        elif month == month == '3':
+        elif month == '3':
             return mar
-        elif month == month == '4':
+        elif month == '4':
             return apr
-        elif month == month == '5':
+        elif month == '5':
             return May
-        elif month == month == '6':
+        elif month == '6':
             return jun
-        elif month == month == '0':
+        elif month == '0':
             return all
         else:
             print('\nInvalid Selection. Please Try Again.\n')
@@ -92,21 +92,21 @@ def get_weekday():
                       '\n Type 6 for Friday'
                       '\n Type 7 for Saturday'
                       '\n Type 0 for All\n')
-        if day == 'sunday' or day == 'sun' or day == '1':
+        if day == day == '1':
             return sun
-        elif day == 'monday' or day == 'mon' or day == '2':
+        elif day == '2':
             return mon
-        elif day == 'tuesday' or day == 'tue' or day == '3':
+        elif day == '3':
             return tue
-        elif day == 'wednesday' or day == 'wed' or day == '4':
+        elif day == '4':
             return wed
-        elif day == 'thursday' or day == 'thu' or day == '5':
+        elif day == '5':
             return thu
-        elif day == 'friday' or day == 'fri' or day == '6':
+        elif day == '6':
             return fri
-        elif day == 'saturday' or day == 'sat' or day == '7':
+        elif day == '7':
             return sat
-        elif day == 'All' or day == '0':
+        elif day == '0':
             return all
         else:
             print('Invalid Selection. Please Try Again.')
